@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/04/27 16:51:21.000.343,=C:\Users\Santri\Documents\Embarcadero\Studio\Projects\GridPaneView1.pas</Transaction>
+    <Transaction>2022/04/27 16:51:21.000.754,=C:\Users\Santri\Documents\Embarcadero\Studio\Projects\SplitPaneView1.pas</Transaction>
+    <Transaction>2022/04/27 20:33:50.000.093,=C:\Users\Santri\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/04/27 20:34:20.000.339,C:\Users\Santri\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Santri\Documents\Embarcadero\Studio\Projects\Thead.dproj</Transaction>
+    <Transaction>2022/04/27 20:36:12.000.799,C:\Users\Santri\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Desenvolvimento\Delphi\DelphiDiversos\Thread\Main.pas</Transaction>
+    <Transaction>2022/04/27 20:36:12.000.799,C:\Users\Santri\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Desenvolvimento\Delphi\DelphiDiversos\Thread\Main.dfm</Transaction>
+    <Transaction>2022/04/27 20:36:27.000.325,C:\Users\Santri\Documents\Embarcadero\Studio\Projects\Thead.dproj=C:\Desenvolvimento\Delphi\DelphiDiversos\Thread\Thead.dproj</Transaction>
+    <Transaction>2022/04/27 21:18:20.000.395,=C:\Desenvolvimento\Delphi\DelphiDiversos\Thread\Unit1.pas</Transaction>
+    <Transaction>2022/04/27 21:18:28.000.653,C:\Desenvolvimento\Delphi\DelphiDiversos\Thread\Unit1.pas=C:\Desenvolvimento\Delphi\DelphiDiversos\Thread\Processo.pas</Transaction>
+    <Transaction>2022/04/27 22:14:48.091,=C:\Desenvolvimento\Delphi\DelphiDiversos\Thread\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

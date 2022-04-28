@@ -1,0 +1,45 @@
+unit Processo;
+
+interface
+
+uses
+  System.Classes, Vcl.ComCtrls, System.SysUtils;
+
+type
+  TProcesso = class(TThread)
+  private
+    FIntervalor: Integer;
+    FProgressBar: TProgressBar;
+  public
+    constructor Create(AProgressBarr: TProgressBar; AIntervalor: Integer); reintroduce;
+  protected
+    procedure Execute; override;
+  end;
+
+implementation
+
+constructor TProcesso.Create(AProgressBarr: TProgressBar; AIntervalor: Integer);
+begin
+  inherited Create(True);
+
+  FreeOnTerminate := True;
+  FProgressBar := AProgressBarr;
+  FIntervalor := AIntervalor;
+end;
+
+procedure TProcesso.Execute;
+begin
+  Synchronize(
+    procedure
+    var
+      i: Integer;
+    begin
+      for i := 0 to 100 do begin
+        Sleep(FIntervalor * 1000);
+        FProgressBar.Position := FProgressBar.Position + 1;
+      end;
+    end
+  );
+end;
+
+end.
